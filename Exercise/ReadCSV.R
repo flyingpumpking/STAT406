@@ -1,0 +1,5 @@
+data <- read.csv("./baby.csv", nrows=100, header=FALSE)
+typeof(data)
+nrow(data)
+ncol(data)
+dataM <- data.matrix(data)
